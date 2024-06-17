@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x:hidden ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFFE2;
+}
+.Box{
+    width: 90%;
+    margin-left: 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    /* background-color: red; */
+  }
+  .Box h1,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 109, 223);
+  }
+.card{
+    height: 100%;
+    text-align: center;
+    padding: 1vw;
+    background-color: #adcdfc;
+}
+.item{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card h1,p{
+    color: black;
+}
+.card-top{
+    overflow: hidden;
+    border-radius: 2vw;
+
+}
+.card .intro{
+    padding-bottom: 1vw;
+}
+.card-top img{
+    height:30vh;
+    object-fit: cover;
+    object-position: center;
+}
